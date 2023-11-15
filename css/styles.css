@@ -1,0 +1,547 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+/* Navbar */
+.nav-container {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 40px;
+}
+
+.menu-container {
+	display: flex;
+	justify-content: space-between;
+	gap: 50px;
+	margin: 20px 40px;
+	list-style: none;
+	font-size: 1.2rem;
+	cursor: pointer;
+	transition: none;
+}
+
+.menu-container a:hover {
+	border-bottom: 2px solid red;
+	transition: border-bottom 0.3s ease;
+}
+
+.img-container {
+	width: 100%;
+	height: 800px;
+	background: url("../img/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	object-fit: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.quote-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.quote-container p {
+	font-size: 3.5rem;
+	font-weight: bold;
+}
+
+.quote-container .river {
+	color: red;
+}
+
+.quote-container .yoda {
+	font-size: 1.4rem;
+	margin-left: auto;
+}
+
+.paragraph-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.paragraph-container p {
+	font-size: 2rem;
+}
+
+.paragraph-container .get-some {
+	font-weight: bold;
+}
+
+.red-buttons {
+	margin-top: 15px;
+	display: flex;
+	gap: 15px;
+}
+
+.red-buttons button {
+	width: 200px;
+	height: 50px;
+	border-radius: 30px;
+	border: none;
+	color: white;
+	font-size: 1.2rem;
+	background-color: red;
+}
+.red-buttons button:hover {
+	width: 200px;
+	height: 50px;
+	border-radius: 30px;
+	border: 2px solid red;
+	color: red;
+	font-size: 1.2rem;
+	background-color: white;
+	transition: 0.3s ease;
+	cursor: pointer;
+}
+
+.white-buttons {
+	margin-top: 30px;
+	display: flex;
+	gap: 15px;
+}
+
+.white-buttons button {
+	width: 180px;
+	height: 40px;
+	border-radius: 30px;
+	border-color: red;
+	color: red;
+	font-size: 1rem;
+	font-weight: bold;
+	background-color: white;
+}
+
+.white-buttons button:hover {
+	width: 180px;
+	height: 40px;
+	border-radius: 30px;
+	border-color: red;
+	color: white;
+	font-size: 1rem;
+	font-weight: bold;
+	background-color: red;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+
+/* Main */
+.resources-container {
+	padding-top: 30px;
+	background-color: #fffcee;
+}
+
+.h1-container {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.h1-container span {
+	color: red;
+	font-weight: bold;
+	font-size: 1.4rem;
+}
+
+.h1-container h1 {
+	font-size: 2.4rem;
+	color: #16203c;
+}
+
+/* Cards */
+
+.resources-cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 auto;
+	max-width: 1000px;
+}
+.card {
+	background-color: white;
+	box-sizing: border-box;
+	display: flex;
+	flex: 0 0 48%;
+	align-items: center;
+	height: 120px;
+	gap: 15px;
+	margin-bottom: 20px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 5px 15px;
+}
+
+.card:hover {
+	border: 1px solid red;
+	cursor: pointer;
+}
+
+.card img {
+	width: 60px;
+	height: 60px;
+	align-self: center;
+}
+
+.card-last {
+	margin: 0 auto;
+	padding: 5px 15px;
+
+	display: flex;
+	align-items: center;
+	width: 600px;
+	height: 120px;
+	gap: 10px;
+	background-color: white;
+	margin-bottom: 20px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-last img {
+	width: 60px;
+	height: 60px;
+	align-self: center;
+}
+
+.card-last:hover {
+	border: 1px solid red;
+	cursor: pointer;
+}
+
+.card-title {
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	color: red;
+	font-weight: bold;
+}
+
+.contact-us {
+	text-align: center;
+}
+
+.contact-us button {
+	margin-top: 20px;
+	margin-bottom: 29px;
+	width: 200px;
+	height: 50px;
+	border-radius: 30px;
+	border: none;
+	color: white;
+	font-size: 1.2rem;
+	background-color: red;
+	cursor: pointer;
+}
+
+/* Other section */
+
+.other-section {
+	padding-top: 100px;
+	height: 1300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	gap: 20px;
+	align-items: center;
+}
+.other-section-card {
+	margin: 20px;
+	width: 60%;
+	display: flex;
+	gap: 10px;
+}
+
+.other-section h1 {
+	font-size: 1.3rem;
+}
+
+.other-section-card img {
+	width: 400px;
+	height: 350px;
+	border-radius: 10px;
+}
+
+.other-section-description {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.other-section-description span {
+	color: blue;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+/* Videos */
+.video-container {
+	width: 100%;
+	height: 800px;
+}
+
+.h1-video-container {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.h1-video-container span {
+	color: red;
+	font-weight: bold;
+	font-size: 1.4rem;
+}
+
+.h1-video-container h1 {
+	font-size: 2.4rem;
+	color: #16203c;
+}
+
+.video-c {
+	margin-top: 50px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+
+.simplia-launch {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.simplia-launch div {
+	width: 500px;
+	height: 350px;
+}
+.simplia-launch video {
+	width: 500px;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.simplia-launch span {
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #16203c;
+}
+
+.simplia-agent {
+	height: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.simplia-agent div {
+	width: 500px;
+	height: 350px;
+}
+
+.simplia-agent video {
+	width: 500px;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.simplia-agent span {
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #16203c;
+}
+
+/* Blogs */
+
+.blogs-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.blogs-container h1 {
+	font-size: 2.5rem;
+	align-self: self-start;
+	margin-left: 400px;
+}
+
+.blog-card-container {
+	margin-top: 50px;
+	display: flex;
+	gap: 25px;
+	height: 600px;
+}
+
+.blog-card {
+	width: 280px;
+	height: 317px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 15px;
+}
+
+.blog-card img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	object-position: center center;
+	border-radius: 0.5rem;
+}
+
+.blog-card p {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #16203c;
+	cursor: pointer;
+}
+
+.blog-card span {
+	font-size: 1rem;
+	color: red;
+	cursor: pointer;
+}
+
+/* Join us  */
+
+.join-us-container {
+	height: 850px;
+	background-color: #fffcee;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 70px;
+}
+
+.join-us-cont {
+	display: flex;
+	gap: 200px;
+}
+
+.join-us-container img {
+	width: 500px;
+}
+.join-us-description {
+	display: flex;
+	width: 400px;
+}
+.join-us-description img {
+	width: 400px;
+}
+
+.join-us-p {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+.join-us-p span {
+	color: red;
+	font-weight: bold;
+	font-size: 1.4rem;
+}
+
+.join-us-title {
+	font-size: 2.4rem;
+	font-weight: bold;
+	width: 500px;
+	color: #16203c;
+	margin-bottom: 30px;
+}
+.join-us-d {
+	font-size: 1.2rem;
+	color: gray;
+	width: 500px;
+}
+
+.form-p {
+	font-size: 1.4rem;
+	color: red;
+}
+
+input[type="text"] {
+	margin: 20px 30px;
+	width: 500px;
+	height: 50px;
+	font-size: 1rem;
+	border: 1px solid rgb(177, 175, 175);
+	padding: 5px;
+}
+
+input[type="submit"] {
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 29px;
+	width: 200px;
+	height: 50px;
+	border-radius: 30px;
+	border: none;
+	color: white;
+	font-size: 1.2rem;
+	background-color: red;
+	cursor: pointer;
+}
+
+/* Footer */
+
+footer {
+	height: 400px;
+	background-color: #0072c5;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 60px;
+}
+footer span {
+	color: white;
+	font-weight: bold;
+}
+
+footer p {
+	color: white;
+	font-weight: 200;
+}
+
+.footer-img {
+	padding-top: 50px;
+}
+
+.vertical-line {
+	width: 5px;
+	height: 200px;
+	background-color: white;
+}
+
+/* Fixed logo  */
+.fixed-icon {
+	width: 70px;
+	height: 70px;
+	position: fixed;
+	bottom: 40px; /* Ajusta la posición vertical según tus necesidades */
+	right: 40px; /* Ajusta la posición horizontal según tus necesidades */
+	background-color: #ff0000; /* Color de fondo del círculo (rojo en este caso) */
+	padding: 10px; /* Espaciado interno del círculo */
+	border-radius: 50%; /* Borde redondeado para un aspecto circular */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra para destacar el círculo */
+	z-index: 1000; /* Asegura que esté por encima de otros elementos en la página */
+	cursor: pointer; /* Cambia el cursor al pasar sobre el círculo (opcional) */
+	overflow: hidden; /* Asegura que el contenido no se desborde del círculo */
+}
+
+.fixed-icon img {
+	width: 30px;
+	height: 30px;
+	margin: 6px 10px;
+}
